@@ -1,0 +1,6 @@
+mindpalace.agents.rag_agent
+===========================
+.. automodule:: mindpalace.agents.rag_agent
+   :members:
+   :undoc-members:
+   :show-inheritance:

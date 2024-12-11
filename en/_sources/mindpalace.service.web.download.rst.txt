@@ -1,0 +1,6 @@
+mindpalace.service.web.download
+===============================
+.. automodule:: mindpalace.service.web.download
+   :members:
+   :undoc-members:
+   :show-inheritance:

@@ -1,0 +1,7 @@
+mindpalace.service.execute_code
+===============================
+
+.. automodule:: mindpalace.service.execute_code
+   :members:
+   :undoc-members:
+   :show-inheritance:

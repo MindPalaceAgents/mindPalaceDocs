@@ -1,0 +1,7 @@
+mindpalace.strategy
+===================
+
+.. automodule:: mindpalace.strategy
+   :members:
+   :undoc-members:
+   :show-inheritance:

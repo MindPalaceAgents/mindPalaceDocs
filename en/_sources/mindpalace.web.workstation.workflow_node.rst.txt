@@ -1,0 +1,6 @@
+mindpalace.web.workstation.workflow_node
+========================================
+.. automodule:: mindpalace.web.workstation.workflow_node
+   :members:
+   :undoc-members:
+   :show-inheritance:

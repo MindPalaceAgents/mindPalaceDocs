@@ -1,0 +1,6 @@
+mindpalace.server.launcher
+==========================
+.. automodule:: mindpalace.server.launcher
+   :members:
+   :undoc-members:
+   :show-inheritance:

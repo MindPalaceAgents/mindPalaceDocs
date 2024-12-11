@@ -1,0 +1,6 @@
+mindpalace.agents.dialog_agent
+==============================
+.. automodule:: mindpalace.agents.dialog_agent
+   :members:
+   :undoc-members:
+   :show-inheritance:

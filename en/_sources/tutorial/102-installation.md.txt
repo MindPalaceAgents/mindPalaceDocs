@@ -1,0 +1,89 @@
+(102-installation-en)=
+
+# Installation
+
+To install MindPalace, you need to have Python 3.9 or higher installed. We recommend setting up a new virtual environment specifically for MindPalace:
+
+## Create a Virtual Environment
+
+### Using Conda
+
+If you're using Conda as your package and environment management tool, you can create a new virtual environment with Python 3.9 using the following commands:
+
+```bash
+# Create a new virtual environment named 'mindpalace' with Python 3.9
+conda create -n mindpalace python=3.9
+
+# Activate the virtual environment
+conda activate mindpalace
+```
+
+### Using Virtualenv
+
+Alternatively, if you prefer `virtualenv`, you can install it first (if it's not already installed) and then create a new virtual environment as shown:
+
+```bash
+# Install virtualenv if it is not already installed
+pip install virtualenv
+
+# Create a new virtual environment named 'mindpalace' with Python 3.9
+virtualenv mindpalace --python=python3.9
+
+# Activate the virtual environment
+source mindpalace/bin/activate  # On Windows use `mindpalace\Scripts\activate`
+```
+
+## Installing MindPalace
+
+### Install with Pip
+
+If you prefer to install MindPalace from Pypi, you can do so easily using `pip`:
+
+```bash
+# For centralized multi-agent applications
+pip install mindpalace
+```
+
+### Install from Source
+
+For users who prefer to install MindPalace directly from the source code, follow these steps to clone the repository and install the platform in editable mode:
+
+**_Note: This project is under active development, it's recommended to install MindPalace from source._**
+
+```bash
+# Pull the source code from Github
+git clone https://github.com/MindPalaceAgents/mindpalace.git
+cd mindpalace
+
+# For centralized multi-agent applications
+pip install -e .
+```
+
+### Extra Dependencies
+
+The supported optional dependencies for MindPalace are list as follows:
+
+- ollama: Ollama API
+- litellm: Litellm API
+- zhipuai: Zhipuai API
+- gemini: Gemini API
+- service: The dependencies for different service functions
+- distribute: The dependencies for distribution mode
+- full: All the dependencies
+
+You can install one or more of these dependencies by adding them to the installation command.
+
+#### Windows
+```bash
+pip install mindpalace[gemini]
+# or
+pip install mindpalace[ollama,distribute]
+```
+#### Mac & Linux
+```bash
+pip install mindpalace\[gemini\]
+# or
+pip install mindpalace\[ollama,distribute\]
+```
+
+[[Return to the top]](#102-installation-en)

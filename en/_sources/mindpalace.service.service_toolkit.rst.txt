@@ -1,0 +1,6 @@
+mindpalace.service.service_toolkit
+==================================
+.. automodule:: mindpalace.service.service_toolkit
+   :members:
+   :undoc-members:
+   :show-inheritance:

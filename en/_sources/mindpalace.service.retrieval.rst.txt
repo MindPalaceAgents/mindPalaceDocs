@@ -1,0 +1,7 @@
+mindpalace.service.retrieval
+============================
+
+.. automodule:: mindpalace.service.retrieval
+   :members:
+   :undoc-members:
+   :show-inheritance:

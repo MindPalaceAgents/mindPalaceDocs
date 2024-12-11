@@ -1,0 +1,6 @@
+mindpalace.models.openai_model
+==============================
+.. automodule:: mindpalace.models.openai_model
+   :members:
+   :undoc-members:
+   :show-inheritance:

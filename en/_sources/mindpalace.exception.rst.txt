@@ -1,0 +1,6 @@
+mindpalace.exception
+====================
+.. automodule:: mindpalace.exception
+   :members:
+   :undoc-members:
+   :show-inheritance:

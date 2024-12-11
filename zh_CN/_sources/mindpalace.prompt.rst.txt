@@ -1,0 +1,7 @@
+mindpalace.prompt
+=================
+
+.. automodule:: mindpalace.prompt
+   :members:
+   :undoc-members:
+   :show-inheritance:

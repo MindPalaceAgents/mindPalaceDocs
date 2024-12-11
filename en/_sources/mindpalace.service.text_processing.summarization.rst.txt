@@ -1,0 +1,6 @@
+mindpalace.service.text_processing.summarization
+================================================
+.. automodule:: mindpalace.service.text_processing.summarization
+   :members:
+   :undoc-members:
+   :show-inheritance:

@@ -1,0 +1,6 @@
+mindpalace.message.msg
+======================
+.. automodule:: mindpalace.message.msg
+   :members:
+   :undoc-members:
+   :show-inheritance:

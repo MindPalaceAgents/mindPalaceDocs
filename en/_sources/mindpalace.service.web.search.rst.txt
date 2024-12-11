@@ -1,0 +1,6 @@
+mindpalace.service.web.search
+=============================
+.. automodule:: mindpalace.service.web.search
+   :members:
+   :undoc-members:
+   :show-inheritance:

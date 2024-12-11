@@ -1,0 +1,6 @@
+mindpalace.rpc.rpc_agent_pb2
+============================
+.. automodule:: mindpalace.rpc.rpc_agent_pb2
+   :members:
+   :undoc-members:
+   :show-inheritance:

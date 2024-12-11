@@ -1,0 +1,6 @@
+mindpalace.web.workstation.workflow_dag
+=======================================
+.. automodule:: mindpalace.web.workstation.workflow_dag
+   :members:
+   :undoc-members:
+   :show-inheritance:

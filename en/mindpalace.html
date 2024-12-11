@@ -1,0 +1,244 @@
+<!-- layout.html -->
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>mindpalace &mdash; MindPalace  documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
+      <link rel="stylesheet" type="text/css" href="_static/custom.css?v=c9484b72" />
+
+  
+      <script src="_static/jquery.js?v=5d32c60e"></script>
+      <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="_static/doctools.js?v=9bcbadda"></script>
+      <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="mindpalace.message" href="mindpalace.message.html" />
+    <link rel="prev" title="Contribute to MindPalace" href="tutorial/302-contribute.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" > 
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            MindPalace
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div> <!-- language_selector.html -->
+<div class="language-selector">
+    <a href="../en/mindpalace.html">English</a></li> |
+    <a href="../zh_CN/mindpalace.html">中文</a></li>
+</div> 
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">MindPalace Tutorial</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="tutorial/102-installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tutorial/103-example.html">Quick Start</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tutorial/203-model.html">Model</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tutorial/203-stream.html">Streaming</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tutorial/206-prompt.html">Prompt Engineering</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tutorial/201-agent.html">Agent</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tutorial/205-memory.html">Memory</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tutorial/203-parser.html">Response Parser</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tutorial/209-prompt_opt.html">System Prompt Optimization</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tutorial/204-service.html">Tool</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tutorial/202-pipeline.html">Pipeline and MsgHub</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tutorial/208-distribute.html">Distribution</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tutorial/209-gui.html">MindPalace Studio</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tutorial/210-rag.html">A Quick Introduction to RAG in MindPalace</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tutorial/211-web.html">Web Browser Control</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tutorial/105-logging.html">Logging</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tutorial/207-monitor.html">Monitor</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tutorial/104-usecase.html">Example: Werewolf Game</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tutorial/contribute.html">Get Involved</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">MindPalace API Reference</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">mindpalace</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#mindpalace.init"><code class="docutils literal notranslate"><span class="pre">init()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#mindpalace.state_dict"><code class="docutils literal notranslate"><span class="pre">state_dict()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#mindpalace.print_llm_usage"><code class="docutils literal notranslate"><span class="pre">print_llm_usage()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#mindpalace.msghub"><code class="docutils literal notranslate"><span class="pre">msghub()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="mindpalace.message.html">mindpalace.message</a></li>
+<li class="toctree-l1"><a class="reference internal" href="mindpalace.models.html">mindpalace.models</a></li>
+<li class="toctree-l1"><a class="reference internal" href="mindpalace.agents.html">mindpalace.agents</a></li>
+<li class="toctree-l1"><a class="reference internal" href="mindpalace.memory.html">mindpalace.memory</a></li>
+<li class="toctree-l1"><a class="reference internal" href="mindpalace.parsers.html">mindpalace.parsers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="mindpalace.exception.html">mindpalace.exception</a></li>
+<li class="toctree-l1"><a class="reference internal" href="mindpalace.pipelines.html">mindpalace.pipelines</a></li>
+<li class="toctree-l1"><a class="reference internal" href="mindpalace.service.html">mindpalace.service</a></li>
+<li class="toctree-l1"><a class="reference internal" href="mindpalace.rpc.html">mindpalace.rpc</a></li>
+<li class="toctree-l1"><a class="reference internal" href="mindpalace.server.html">mindpalace.server</a></li>
+<li class="toctree-l1"><a class="reference internal" href="mindpalace.web.html">mindpalace.web</a></li>
+<li class="toctree-l1"><a class="reference internal" href="mindpalace.prompt.html">mindpalace.prompt</a></li>
+<li class="toctree-l1"><a class="reference internal" href="mindpalace.utils.html">mindpalace.utils</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">MindPalace</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">mindpalace</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/mindpalace.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="module-mindpalace">
+<span id="mindpalace"></span><h1>mindpalace<a class="headerlink" href="#module-mindpalace" title="Link to this heading"></a></h1>
+<p>Import all modules in the package.</p>
+<dl class="py function">
+<dt class="sig sig-object py" id="mindpalace.init">
+<span class="sig-prename descclassname"><span class="pre">mindpalace.</span></span><span class="sig-name descname"><span class="pre">init</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">model_configs</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">dict</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">str</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">list</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">project</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">name</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">disable_saving</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">save_dir</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">'./runs'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">save_log</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">save_code</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">save_api_invoke</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">cache_dir</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">'/home/runner/.cache/mindpalace'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">use_monitor</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">logger_level</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Literal</span><span class="p"><span class="pre">[</span></span><span class="s"><span class="pre">'TRACE'</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="s"><span class="pre">'DEBUG'</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="s"><span class="pre">'INFO'</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="s"><span class="pre">'SUCCESS'</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="s"><span class="pre">'WARNING'</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="s"><span class="pre">'ERROR'</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="s"><span class="pre">'CRITICAL'</span></span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">'INFO'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">runtime_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">agent_configs</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">dict</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">str</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">list</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">studio_url</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">Sequence</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="mindpalace.agents.agent.html#mindpalace.agents.agent.AgentBase" title="mindpalace.agents.agent.AgentBase"><span class="pre">AgentBase</span></a><span class="p"><span class="pre">]</span></span></span></span><a class="reference internal" href="_modules/mindpalace/_init.html#init"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#mindpalace.init" title="Link to this definition"></a></dt>
+<dd><p>A unified entry to initialize the package, including model configs,
+runtime names, saving directories and logging settings.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>model_configs</strong> (<cite>Optional[Union[dict, str, list]]</cite>, defaults to <cite>None</cite>) – A dict, a list of dicts, or a path to a json file containing
+model configs.</p></li>
+<li><p><strong>project</strong> (<cite>Optional[str]</cite>, defaults to <cite>None</cite>) – The project name, which is used to identify the project.</p></li>
+<li><p><strong>name</strong> (<cite>Optional[str]</cite>, defaults to <cite>None</cite>) – The name for runtime, which is used to identify this runtime.</p></li>
+<li><p><strong>disable_saving</strong> (<cite>bool</cite>, defaults to <cite>False</cite>) – Whether to disable saving files. If <cite>True</cite>, this will override
+the <cite>save_log</cite>, <cite>save_code</cite>, and <cite>save_api_invoke</cite> parameters.</p></li>
+<li><p><strong>runtime_id</strong> (<cite>Optional[str]</cite>, defaults to <cite>None</cite>) – The id for runtime, which is used to identify this runtime. Use
+<cite>None</cite> will generate a random id.</p></li>
+<li><p><strong>save_dir</strong> (<cite>str</cite>, defaults to <cite>./runs</cite>) – The directory to save logs, files, codes, and api invocations.
+If <cite>dir</cite> is <cite>None</cite>, when saving logs, files, codes, and api
+invocations, the default directory <cite>./runs</cite> will be created.</p></li>
+<li><p><strong>save_log</strong> (<cite>bool</cite>, defaults to <cite>False</cite>) – Whether to save logs locally.</p></li>
+<li><p><strong>save_code</strong> (<cite>bool</cite>, defaults to <cite>False</cite>) – Whether to save codes locally.</p></li>
+<li><p><strong>save_api_invoke</strong> (<cite>bool</cite>, defaults to <cite>False</cite>) – Whether to save api invocations locally, including model and web
+search invocation.</p></li>
+<li><p><strong>cache_dir</strong> (<cite>str</cite>) – The directory to cache files. In Linux/Mac, the dir defaults to</p></li>
+<li><p><strong>Windows</strong> (<em> In</em>)</p></li>
+<li><p><strong>to</strong> (<em>the dir defaults</em>)</p></li>
+<li><p><strong>`C</strong> – <p>users&lt;username&gt;.cachemindpalace`.</p>
+</p></li>
+<li><p><strong>use_monitor</strong> (<cite>bool</cite>, defaults to <cite>True</cite>) – Whether to activate the monitor.</p></li>
+<li><p><strong>logger_level</strong> (<cite>LOG_LEVEL</cite>, defaults to <cite>“INFO”</cite>) – The logging level of logger.</p></li>
+<li><p><strong>agent_configs</strong> (<cite>Optional[Union[str, list, dict]]</cite>, defaults to <cite>None</cite>) – The config dict(s) of agents or the path to the config file,
+which can be loaded by json.loads(). One agent config should
+cover the required arguments to initialize a specific agent
+object, otherwise the default values will be used.</p></li>
+<li><p><strong>studio_url</strong> (<cite>Optional[str]</cite>, defaults to <cite>None</cite>) – The url of the mindpalace studio.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="mindpalace.state_dict">
+<span class="sig-prename descclassname"><span class="pre">mindpalace.</span></span><span class="sig-name descname"><span class="pre">state_dict</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">dict</span></span></span><a class="reference internal" href="_modules/mindpalace/_init.html#state_dict"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#mindpalace.state_dict" title="Link to this definition"></a></dt>
+<dd><p>Get the status of mindpalace.</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="mindpalace.print_llm_usage">
+<span class="sig-prename descclassname"><span class="pre">mindpalace.</span></span><span class="sig-name descname"><span class="pre">print_llm_usage</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">dict</span></span></span><a class="reference internal" href="_modules/mindpalace/_init.html#print_llm_usage"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#mindpalace.print_llm_usage" title="Link to this definition"></a></dt>
+<dd><p>Print the usage of LLM.</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="mindpalace.msghub">
+<span class="sig-prename descclassname"><span class="pre">mindpalace.</span></span><span class="sig-name descname"><span class="pre">msghub</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">participants</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Sequence</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="mindpalace.agents.agent.html#mindpalace.agents.agent.AgentBase" title="mindpalace.agents.agent.AgentBase"><span class="pre">AgentBase</span></a><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">announcement</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="mindpalace.message.msg.html#mindpalace.message.msg.Msg" title="mindpalace.message.msg.Msg"><span class="pre">Msg</span></a><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">Sequence</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="mindpalace.message.msg.html#mindpalace.message.msg.Msg" title="mindpalace.message.msg.Msg"><span class="pre">Msg</span></a><span class="p"><span class="pre">]</span></span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="mindpalace.msghub.html#mindpalace.msghub.MsgHubManager" title="mindpalace.msghub.MsgHubManager"><span class="pre">MsgHubManager</span></a></span></span><a class="reference internal" href="_modules/mindpalace/msghub.html#msghub"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#mindpalace.msghub" title="Link to this definition"></a></dt>
+<dd><p>msghub is used to share messages among a group of agents.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>participants</strong> (<cite>Sequence[AgentBase]</cite>) – A Sequence of participated agents in the msghub.</p></li>
+<li><p><strong>announcement</strong> (<cite>Optional[Union[list[Msg], Msg]]</cite>, defaults to <cite>None</cite>) – The message that will be broadcast to all participants at the
+very beginning without requiring response.</p></li>
+</ul>
+</dd>
+</dl>
+<p class="rubric">Example</p>
+<p>In the following code, we create a msghub with three agents, and each
+message output by <cite>agent1</cite>, <cite>agent2</cite>, <cite>agent3</cite> will be passed to all
+other agents, that’s what we mean msghub.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">with</span> <span class="n">msghub</span><span class="p">(</span><span class="n">participant</span><span class="o">=</span><span class="p">[</span><span class="n">agent1</span><span class="p">,</span> <span class="n">agent2</span><span class="p">,</span> <span class="n">agent3</span><span class="p">]):</span>
+    <span class="n">agent1</span><span class="p">()</span>
+    <span class="n">agent2</span><span class="p">()</span>
+</pre></div>
+</div>
+<p>Actually, it has the same effect as the following code, but much more
+easy and elegant!</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">x1</span> <span class="o">=</span> <span class="n">agent1</span><span class="p">()</span>
+<span class="n">agent2</span><span class="o">.</span><span class="n">observe</span><span class="p">(</span><span class="n">x1</span><span class="p">)</span>
+<span class="n">agent3</span><span class="o">.</span><span class="n">observe</span><span class="p">(</span><span class="n">x1</span><span class="p">)</span>
+
+<span class="n">x2</span> <span class="o">=</span> <span class="n">agent2</span><span class="p">()</span>
+<span class="n">agent1</span><span class="o">.</span><span class="n">observe</span><span class="p">(</span><span class="n">x2</span><span class="p">)</span>
+<span class="n">agent3</span><span class="o">.</span><span class="n">observe</span><span class="p">(</span><span class="n">x2</span><span class="p">)</span>
+</pre></div>
+</div>
+</dd></dl>
+
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="tutorial/302-contribute.html" class="btn btn-neutral float-left" title="Contribute to MindPalace" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="mindpalace.message.html" class="btn btn-neutral float-right" title="mindpalace.message" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2024, Alibaba Tongyi Lab.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

@@ -1,0 +1,689 @@
+<!-- layout.html -->
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="./">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Python Module Index &mdash; MindPalace  documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
+      <link rel="stylesheet" type="text/css" href="_static/custom.css?v=c9484b72" />
+
+  
+      <script src="_static/jquery.js?v=5d32c60e"></script>
+      <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="_static/doctools.js?v=9bcbadda"></script>
+      <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+      <script type="module" src="https://cdn.jsdelivr.net/npm/mermaid@11.2.0/dist/mermaid.esm.min.mjs"></script>
+      <script type="module" src="https://cdn.jsdelivr.net/npm/@mermaid-js/layout-elk@0.1.4/dist/mermaid-layout-elk.esm.min.mjs"></script>
+      <script type="module">import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@11.2.0/dist/mermaid.esm.min.mjs";import elkLayouts from "https://cdn.jsdelivr.net/npm/@mermaid-js/layout-elk@0.1.4/dist/mermaid-layout-elk.esm.min.mjs";mermaid.registerLayoutLoaders(elkLayouts);mermaid.initialize({startOnLoad:false});</script>
+      <script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
+      <script type="module">
+import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@11.2.0/dist/mermaid.esm.min.mjs";
+window.addEventListener("load", () => mermaid.run());
+</script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+ 
+
+
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" > 
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            MindPalace
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div> <!-- language_selector.html -->
+<div class="language-selector">
+    <a href="../en/py-modindex.html">English</a></li> |
+    <a href="../zh_CN/py-modindex.html">中文</a></li>
+</div> 
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">MindPalace Tutorial</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="tutorial/102-installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tutorial/103-example.html">Quick Start</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tutorial/203-model.html">Model</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tutorial/203-stream.html">Streaming</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tutorial/206-prompt.html">Prompt Engineering</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tutorial/201-agent.html">Agent</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tutorial/205-memory.html">Memory</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tutorial/203-parser.html">Response Parser</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tutorial/209-prompt_opt.html">System Prompt Optimization</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tutorial/204-service.html">Tool</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tutorial/202-pipeline.html">Pipeline and MsgHub</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tutorial/208-distribute.html">Distribution</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tutorial/209-gui.html">MindPalace Studio</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tutorial/210-rag.html">A Quick Introduction to RAG in MindPalace</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tutorial/211-web.html">Web Browser Control</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tutorial/105-logging.html">Logging</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tutorial/207-monitor.html">Monitor</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tutorial/104-usecase.html">Example: Werewolf Game</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tutorial/contribute.html">Get Involved</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">MindPalace API Reference</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="mindpalace.html">mindpalace</a></li>
+<li class="toctree-l1"><a class="reference internal" href="mindpalace.message.html">mindpalace.message</a></li>
+<li class="toctree-l1"><a class="reference internal" href="mindpalace.models.html">mindpalace.models</a></li>
+<li class="toctree-l1"><a class="reference internal" href="mindpalace.agents.html">mindpalace.agents</a></li>
+<li class="toctree-l1"><a class="reference internal" href="mindpalace.memory.html">mindpalace.memory</a></li>
+<li class="toctree-l1"><a class="reference internal" href="mindpalace.parsers.html">mindpalace.parsers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="mindpalace.exception.html">mindpalace.exception</a></li>
+<li class="toctree-l1"><a class="reference internal" href="mindpalace.pipelines.html">mindpalace.pipelines</a></li>
+<li class="toctree-l1"><a class="reference internal" href="mindpalace.service.html">mindpalace.service</a></li>
+<li class="toctree-l1"><a class="reference internal" href="mindpalace.rpc.html">mindpalace.rpc</a></li>
+<li class="toctree-l1"><a class="reference internal" href="mindpalace.server.html">mindpalace.server</a></li>
+<li class="toctree-l1"><a class="reference internal" href="mindpalace.web.html">mindpalace.web</a></li>
+<li class="toctree-l1"><a class="reference internal" href="mindpalace.prompt.html">mindpalace.prompt</a></li>
+<li class="toctree-l1"><a class="reference internal" href="mindpalace.utils.html">mindpalace.utils</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">MindPalace</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Python Module Index</li>
+      <li class="wy-breadcrumbs-aside">
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+
+   <h1>Python Module Index</h1>
+
+   <div class="modindex-jumpbox">
+   <a href="#cap-m"><strong>m</strong></a>
+   </div>
+
+   <table class="indextable modindextable">
+     <tr class="pcap"><td></td><td>&#160;</td><td></td></tr>
+     <tr class="cap" id="cap-m"><td></td><td>
+       <strong>m</strong></td><td></td></tr>
+     <tr>
+       <td><img src="_static/minus.png" class="toggler"
+              id="toggle-1" style="display: none" alt="-" /></td>
+       <td>
+       <a href="mindpalace.html#module-mindpalace"><code class="xref">mindpalace</code></a></td><td>
+       <em></em></td></tr>
+     <tr class="cg-1">
+       <td></td>
+       <td>&#160;&#160;&#160;
+       <a href="mindpalace.agents.html#module-mindpalace.agents"><code class="xref">mindpalace.agents</code></a></td><td>
+       <em></em></td></tr>
+     <tr class="cg-1">
+       <td></td>
+       <td>&#160;&#160;&#160;
+       <a href="mindpalace.agents.agent.html#module-mindpalace.agents.agent"><code class="xref">mindpalace.agents.agent</code></a></td><td>
+       <em></em></td></tr>
+     <tr class="cg-1">
+       <td></td>
+       <td>&#160;&#160;&#160;
+       <a href="mindpalace.agents.dialog_agent.html#module-mindpalace.agents.dialog_agent"><code class="xref">mindpalace.agents.dialog_agent</code></a></td><td>
+       <em></em></td></tr>
+     <tr class="cg-1">
+       <td></td>
+       <td>&#160;&#160;&#160;
+       <a href="mindpalace.agents.dict_dialog_agent.html#module-mindpalace.agents.dict_dialog_agent"><code class="xref">mindpalace.agents.dict_dialog_agent</code></a></td><td>
+       <em></em></td></tr>
+     <tr class="cg-1">
+       <td></td>
+       <td>&#160;&#160;&#160;
+       <a href="mindpalace.agents.operator.html#module-mindpalace.agents.operator"><code class="xref">mindpalace.agents.operator</code></a></td><td>
+       <em></em></td></tr>
+     <tr class="cg-1">
+       <td></td>
+       <td>&#160;&#160;&#160;
+       <a href="mindpalace.agents.rag_agent.html#module-mindpalace.agents.rag_agent"><code class="xref">mindpalace.agents.rag_agent</code></a></td><td>
+       <em></em></td></tr>
+     <tr class="cg-1">
+       <td></td>
+       <td>&#160;&#160;&#160;
+       <a href="mindpalace.agents.react_agent.html#module-mindpalace.agents.react_agent"><code class="xref">mindpalace.agents.react_agent</code></a></td><td>
+       <em></em></td></tr>
+     <tr class="cg-1">
+       <td></td>
+       <td>&#160;&#160;&#160;
+       <a href="mindpalace.agents.user_agent.html#module-mindpalace.agents.user_agent"><code class="xref">mindpalace.agents.user_agent</code></a></td><td>
+       <em></em></td></tr>
+     <tr class="cg-1">
+       <td></td>
+       <td>&#160;&#160;&#160;
+       <a href="mindpalace.constants.html#module-mindpalace.constants"><code class="xref">mindpalace.constants</code></a></td><td>
+       <em></em></td></tr>
+     <tr class="cg-1">
+       <td></td>
+       <td>&#160;&#160;&#160;
+       <a href="mindpalace.environment.html#module-mindpalace.environment"><code class="xref">mindpalace.environment</code></a></td><td>
+       <em></em></td></tr>
+     <tr class="cg-1">
+       <td></td>
+       <td>&#160;&#160;&#160;
+       <a href="mindpalace.environment.env.html#module-mindpalace.environment.env"><code class="xref">mindpalace.environment.env</code></a></td><td>
+       <em></em></td></tr>
+     <tr class="cg-1">
+       <td></td>
+       <td>&#160;&#160;&#160;
+       <a href="mindpalace.environment.event.html#module-mindpalace.environment.event"><code class="xref">mindpalace.environment.event</code></a></td><td>
+       <em></em></td></tr>
+     <tr class="cg-1">
+       <td></td>
+       <td>&#160;&#160;&#160;
+       <a href="mindpalace.exception.html#module-mindpalace.exception"><code class="xref">mindpalace.exception</code></a></td><td>
+       <em></em></td></tr>
+     <tr class="cg-1">
+       <td></td>
+       <td>&#160;&#160;&#160;
+       <a href="mindpalace.logging.html#module-mindpalace.logging"><code class="xref">mindpalace.logging</code></a></td><td>
+       <em></em></td></tr>
+     <tr class="cg-1">
+       <td></td>
+       <td>&#160;&#160;&#160;
+       <a href="mindpalace.manager.html#module-mindpalace.manager"><code class="xref">mindpalace.manager</code></a></td><td>
+       <em></em></td></tr>
+     <tr class="cg-1">
+       <td></td>
+       <td>&#160;&#160;&#160;
+       <a href="mindpalace.memory.html#module-mindpalace.memory"><code class="xref">mindpalace.memory</code></a></td><td>
+       <em></em></td></tr>
+     <tr class="cg-1">
+       <td></td>
+       <td>&#160;&#160;&#160;
+       <a href="mindpalace.memory.memory.html#module-mindpalace.memory.memory"><code class="xref">mindpalace.memory.memory</code></a></td><td>
+       <em></em></td></tr>
+     <tr class="cg-1">
+       <td></td>
+       <td>&#160;&#160;&#160;
+       <a href="mindpalace.memory.temporary_memory.html#module-mindpalace.memory.temporary_memory"><code class="xref">mindpalace.memory.temporary_memory</code></a></td><td>
+       <em></em></td></tr>
+     <tr class="cg-1">
+       <td></td>
+       <td>&#160;&#160;&#160;
+       <a href="mindpalace.message.html#module-mindpalace.message"><code class="xref">mindpalace.message</code></a></td><td>
+       <em></em></td></tr>
+     <tr class="cg-1">
+       <td></td>
+       <td>&#160;&#160;&#160;
+       <a href="mindpalace.message.msg.html#module-mindpalace.message.msg"><code class="xref">mindpalace.message.msg</code></a></td><td>
+       <em></em></td></tr>
+     <tr class="cg-1">
+       <td></td>
+       <td>&#160;&#160;&#160;
+       <a href="mindpalace.models.html#module-mindpalace.models"><code class="xref">mindpalace.models</code></a></td><td>
+       <em></em></td></tr>
+     <tr class="cg-1">
+       <td></td>
+       <td>&#160;&#160;&#160;
+       <a href="mindpalace.models.dashscope_model.html#module-mindpalace.models.dashscope_model"><code class="xref">mindpalace.models.dashscope_model</code></a></td><td>
+       <em></em></td></tr>
+     <tr class="cg-1">
+       <td></td>
+       <td>&#160;&#160;&#160;
+       <a href="mindpalace.models.gemini_model.html#module-mindpalace.models.gemini_model"><code class="xref">mindpalace.models.gemini_model</code></a></td><td>
+       <em></em></td></tr>
+     <tr class="cg-1">
+       <td></td>
+       <td>&#160;&#160;&#160;
+       <a href="mindpalace.models.litellm_model.html#module-mindpalace.models.litellm_model"><code class="xref">mindpalace.models.litellm_model</code></a></td><td>
+       <em></em></td></tr>
+     <tr class="cg-1">
+       <td></td>
+       <td>&#160;&#160;&#160;
+       <a href="mindpalace.models.model.html#module-mindpalace.models.model"><code class="xref">mindpalace.models.model</code></a></td><td>
+       <em></em></td></tr>
+     <tr class="cg-1">
+       <td></td>
+       <td>&#160;&#160;&#160;
+       <a href="mindpalace.models.ollama_model.html#module-mindpalace.models.ollama_model"><code class="xref">mindpalace.models.ollama_model</code></a></td><td>
+       <em></em></td></tr>
+     <tr class="cg-1">
+       <td></td>
+       <td>&#160;&#160;&#160;
+       <a href="mindpalace.models.openai_model.html#module-mindpalace.models.openai_model"><code class="xref">mindpalace.models.openai_model</code></a></td><td>
+       <em></em></td></tr>
+     <tr class="cg-1">
+       <td></td>
+       <td>&#160;&#160;&#160;
+       <a href="mindpalace.models.post_model.html#module-mindpalace.models.post_model"><code class="xref">mindpalace.models.post_model</code></a></td><td>
+       <em></em></td></tr>
+     <tr class="cg-1">
+       <td></td>
+       <td>&#160;&#160;&#160;
+       <a href="mindpalace.models.response.html#module-mindpalace.models.response"><code class="xref">mindpalace.models.response</code></a></td><td>
+       <em></em></td></tr>
+     <tr class="cg-1">
+       <td></td>
+       <td>&#160;&#160;&#160;
+       <a href="mindpalace.models.yi_model.html#module-mindpalace.models.yi_model"><code class="xref">mindpalace.models.yi_model</code></a></td><td>
+       <em></em></td></tr>
+     <tr class="cg-1">
+       <td></td>
+       <td>&#160;&#160;&#160;
+       <a href="mindpalace.models.zhipu_model.html#module-mindpalace.models.zhipu_model"><code class="xref">mindpalace.models.zhipu_model</code></a></td><td>
+       <em></em></td></tr>
+     <tr class="cg-1">
+       <td></td>
+       <td>&#160;&#160;&#160;
+       <a href="mindpalace.msghub.html#module-mindpalace.msghub"><code class="xref">mindpalace.msghub</code></a></td><td>
+       <em></em></td></tr>
+     <tr class="cg-1">
+       <td></td>
+       <td>&#160;&#160;&#160;
+       <a href="mindpalace.parsers.html#module-mindpalace.parsers"><code class="xref">mindpalace.parsers</code></a></td><td>
+       <em></em></td></tr>
+     <tr class="cg-1">
+       <td></td>
+       <td>&#160;&#160;&#160;
+       <a href="mindpalace.parsers.code_block_parser.html#module-mindpalace.parsers.code_block_parser"><code class="xref">mindpalace.parsers.code_block_parser</code></a></td><td>
+       <em></em></td></tr>
+     <tr class="cg-1">
+       <td></td>
+       <td>&#160;&#160;&#160;
+       <a href="mindpalace.parsers.json_object_parser.html#module-mindpalace.parsers.json_object_parser"><code class="xref">mindpalace.parsers.json_object_parser</code></a></td><td>
+       <em></em></td></tr>
+     <tr class="cg-1">
+       <td></td>
+       <td>&#160;&#160;&#160;
+       <a href="mindpalace.parsers.parser_base.html#module-mindpalace.parsers.parser_base"><code class="xref">mindpalace.parsers.parser_base</code></a></td><td>
+       <em></em></td></tr>
+     <tr class="cg-1">
+       <td></td>
+       <td>&#160;&#160;&#160;
+       <a href="mindpalace.parsers.regex_tagged_content_parser.html#module-mindpalace.parsers.regex_tagged_content_parser"><code class="xref">mindpalace.parsers.regex_tagged_content_parser</code></a></td><td>
+       <em></em></td></tr>
+     <tr class="cg-1">
+       <td></td>
+       <td>&#160;&#160;&#160;
+       <a href="mindpalace.parsers.tagged_content_parser.html#module-mindpalace.parsers.tagged_content_parser"><code class="xref">mindpalace.parsers.tagged_content_parser</code></a></td><td>
+       <em></em></td></tr>
+     <tr class="cg-1">
+       <td></td>
+       <td>&#160;&#160;&#160;
+       <a href="mindpalace.pipelines.html#module-mindpalace.pipelines"><code class="xref">mindpalace.pipelines</code></a></td><td>
+       <em></em></td></tr>
+     <tr class="cg-1">
+       <td></td>
+       <td>&#160;&#160;&#160;
+       <a href="mindpalace.pipelines.functional.html#module-mindpalace.pipelines.functional"><code class="xref">mindpalace.pipelines.functional</code></a></td><td>
+       <em></em></td></tr>
+     <tr class="cg-1">
+       <td></td>
+       <td>&#160;&#160;&#160;
+       <a href="mindpalace.pipelines.pipeline.html#module-mindpalace.pipelines.pipeline"><code class="xref">mindpalace.pipelines.pipeline</code></a></td><td>
+       <em></em></td></tr>
+     <tr class="cg-1">
+       <td></td>
+       <td>&#160;&#160;&#160;
+       <a href="mindpalace.prompt.html#module-mindpalace.prompt"><code class="xref">mindpalace.prompt</code></a></td><td>
+       <em></em></td></tr>
+     <tr class="cg-1">
+       <td></td>
+       <td>&#160;&#160;&#160;
+       <a href="mindpalace.rag.html#module-mindpalace.rag"><code class="xref">mindpalace.rag</code></a></td><td>
+       <em></em></td></tr>
+     <tr class="cg-1">
+       <td></td>
+       <td>&#160;&#160;&#160;
+       <a href="mindpalace.rag.knowledge.html#module-mindpalace.rag.knowledge"><code class="xref">mindpalace.rag.knowledge</code></a></td><td>
+       <em></em></td></tr>
+     <tr class="cg-1">
+       <td></td>
+       <td>&#160;&#160;&#160;
+       <a href="mindpalace.rag.knowledge_bank.html#module-mindpalace.rag.knowledge_bank"><code class="xref">mindpalace.rag.knowledge_bank</code></a></td><td>
+       <em></em></td></tr>
+     <tr class="cg-1">
+       <td></td>
+       <td>&#160;&#160;&#160;
+       <a href="mindpalace.rag.llama_index_knowledge.html#module-mindpalace.rag.llama_index_knowledge"><code class="xref">mindpalace.rag.llama_index_knowledge</code></a></td><td>
+       <em></em></td></tr>
+     <tr class="cg-1">
+       <td></td>
+       <td>&#160;&#160;&#160;
+       <a href="mindpalace.rpc.html#module-mindpalace.rpc"><code class="xref">mindpalace.rpc</code></a></td><td>
+       <em></em></td></tr>
+     <tr class="cg-1">
+       <td></td>
+       <td>&#160;&#160;&#160;
+       <a href="mindpalace.rpc.retry_strategy.html#module-mindpalace.rpc.retry_strategy"><code class="xref">mindpalace.rpc.retry_strategy</code></a></td><td>
+       <em></em></td></tr>
+     <tr class="cg-1">
+       <td></td>
+       <td>&#160;&#160;&#160;
+       <a href="mindpalace.rpc.rpc_async.html#module-mindpalace.rpc.rpc_async"><code class="xref">mindpalace.rpc.rpc_async</code></a></td><td>
+       <em></em></td></tr>
+     <tr class="cg-1">
+       <td></td>
+       <td>&#160;&#160;&#160;
+       <a href="mindpalace.rpc.rpc_client.html#module-mindpalace.rpc.rpc_client"><code class="xref">mindpalace.rpc.rpc_client</code></a></td><td>
+       <em></em></td></tr>
+     <tr class="cg-1">
+       <td></td>
+       <td>&#160;&#160;&#160;
+       <a href="mindpalace.rpc.rpc_config.html#module-mindpalace.rpc.rpc_config"><code class="xref">mindpalace.rpc.rpc_config</code></a></td><td>
+       <em></em></td></tr>
+     <tr class="cg-1">
+       <td></td>
+       <td>&#160;&#160;&#160;
+       <a href="mindpalace.rpc.rpc_meta.html#module-mindpalace.rpc.rpc_meta"><code class="xref">mindpalace.rpc.rpc_meta</code></a></td><td>
+       <em></em></td></tr>
+     <tr class="cg-1">
+       <td></td>
+       <td>&#160;&#160;&#160;
+       <a href="mindpalace.rpc.rpc_object.html#module-mindpalace.rpc.rpc_object"><code class="xref">mindpalace.rpc.rpc_object</code></a></td><td>
+       <em></em></td></tr>
+     <tr class="cg-1">
+       <td></td>
+       <td>&#160;&#160;&#160;
+       <a href="mindpalace.serialize.html#module-mindpalace.serialize"><code class="xref">mindpalace.serialize</code></a></td><td>
+       <em></em></td></tr>
+     <tr class="cg-1">
+       <td></td>
+       <td>&#160;&#160;&#160;
+       <a href="mindpalace.service.html#module-mindpalace.service"><code class="xref">mindpalace.service</code></a></td><td>
+       <em></em></td></tr>
+     <tr class="cg-1">
+       <td></td>
+       <td>&#160;&#160;&#160;
+       <a href="mindpalace.service.browser.html#module-mindpalace.service.browser"><code class="xref">mindpalace.service.browser</code></a></td><td>
+       <em></em></td></tr>
+     <tr class="cg-1">
+       <td></td>
+       <td>&#160;&#160;&#160;
+       <a href="mindpalace.service.browser.web_browser.html#module-mindpalace.service.browser.web_browser"><code class="xref">mindpalace.service.browser.web_browser</code></a></td><td>
+       <em></em></td></tr>
+     <tr class="cg-1">
+       <td></td>
+       <td>&#160;&#160;&#160;
+       <a href="mindpalace.service.execute_code.html#module-mindpalace.service.execute_code"><code class="xref">mindpalace.service.execute_code</code></a></td><td>
+       <em></em></td></tr>
+     <tr class="cg-1">
+       <td></td>
+       <td>&#160;&#160;&#160;
+       <a href="mindpalace.service.execute_code.exec_notebook.html#module-mindpalace.service.execute_code.exec_notebook"><code class="xref">mindpalace.service.execute_code.exec_notebook</code></a></td><td>
+       <em></em></td></tr>
+     <tr class="cg-1">
+       <td></td>
+       <td>&#160;&#160;&#160;
+       <a href="mindpalace.service.execute_code.exec_python.html#module-mindpalace.service.execute_code.exec_python"><code class="xref">mindpalace.service.execute_code.exec_python</code></a></td><td>
+       <em></em></td></tr>
+     <tr class="cg-1">
+       <td></td>
+       <td>&#160;&#160;&#160;
+       <a href="mindpalace.service.execute_code.exec_shell.html#module-mindpalace.service.execute_code.exec_shell"><code class="xref">mindpalace.service.execute_code.exec_shell</code></a></td><td>
+       <em></em></td></tr>
+     <tr class="cg-1">
+       <td></td>
+       <td>&#160;&#160;&#160;
+       <a href="mindpalace.service.file.html#module-mindpalace.service.file"><code class="xref">mindpalace.service.file</code></a></td><td>
+       <em></em></td></tr>
+     <tr class="cg-1">
+       <td></td>
+       <td>&#160;&#160;&#160;
+       <a href="mindpalace.service.file.common.html#module-mindpalace.service.file.common"><code class="xref">mindpalace.service.file.common</code></a></td><td>
+       <em></em></td></tr>
+     <tr class="cg-1">
+       <td></td>
+       <td>&#160;&#160;&#160;
+       <a href="mindpalace.service.file.json.html#module-mindpalace.service.file.json"><code class="xref">mindpalace.service.file.json</code></a></td><td>
+       <em></em></td></tr>
+     <tr class="cg-1">
+       <td></td>
+       <td>&#160;&#160;&#160;
+       <a href="mindpalace.service.file.text.html#module-mindpalace.service.file.text"><code class="xref">mindpalace.service.file.text</code></a></td><td>
+       <em></em></td></tr>
+     <tr class="cg-1">
+       <td></td>
+       <td>&#160;&#160;&#160;
+       <a href="mindpalace.service.multi_modality.html#module-mindpalace.service.multi_modality"><code class="xref">mindpalace.service.multi_modality</code></a></td><td>
+       <em></em></td></tr>
+     <tr class="cg-1">
+       <td></td>
+       <td>&#160;&#160;&#160;
+       <a href="mindpalace.service.multi_modality.dashscope_services.html#module-mindpalace.service.multi_modality.dashscope_services"><code class="xref">mindpalace.service.multi_modality.dashscope_services</code></a></td><td>
+       <em></em></td></tr>
+     <tr class="cg-1">
+       <td></td>
+       <td>&#160;&#160;&#160;
+       <a href="mindpalace.service.multi_modality.openai_services.html#module-mindpalace.service.multi_modality.openai_services"><code class="xref">mindpalace.service.multi_modality.openai_services</code></a></td><td>
+       <em></em></td></tr>
+     <tr class="cg-1">
+       <td></td>
+       <td>&#160;&#160;&#160;
+       <a href="mindpalace.service.retrieval.html#module-mindpalace.service.retrieval"><code class="xref">mindpalace.service.retrieval</code></a></td><td>
+       <em></em></td></tr>
+     <tr class="cg-1">
+       <td></td>
+       <td>&#160;&#160;&#160;
+       <a href="mindpalace.service.retrieval.retrieval_from_list.html#module-mindpalace.service.retrieval.retrieval_from_list"><code class="xref">mindpalace.service.retrieval.retrieval_from_list</code></a></td><td>
+       <em></em></td></tr>
+     <tr class="cg-1">
+       <td></td>
+       <td>&#160;&#160;&#160;
+       <a href="mindpalace.service.retrieval.similarity.html#module-mindpalace.service.retrieval.similarity"><code class="xref">mindpalace.service.retrieval.similarity</code></a></td><td>
+       <em></em></td></tr>
+     <tr class="cg-1">
+       <td></td>
+       <td>&#160;&#160;&#160;
+       <a href="mindpalace.service.service_response.html#module-mindpalace.service.service_response"><code class="xref">mindpalace.service.service_response</code></a></td><td>
+       <em></em></td></tr>
+     <tr class="cg-1">
+       <td></td>
+       <td>&#160;&#160;&#160;
+       <a href="mindpalace.service.service_status.html#module-mindpalace.service.service_status"><code class="xref">mindpalace.service.service_status</code></a></td><td>
+       <em></em></td></tr>
+     <tr class="cg-1">
+       <td></td>
+       <td>&#160;&#160;&#160;
+       <a href="mindpalace.service.service_toolkit.html#module-mindpalace.service.service_toolkit"><code class="xref">mindpalace.service.service_toolkit</code></a></td><td>
+       <em></em></td></tr>
+     <tr class="cg-1">
+       <td></td>
+       <td>&#160;&#160;&#160;
+       <a href="mindpalace.service.sql_query.html#module-mindpalace.service.sql_query"><code class="xref">mindpalace.service.sql_query</code></a></td><td>
+       <em></em></td></tr>
+     <tr class="cg-1">
+       <td></td>
+       <td>&#160;&#160;&#160;
+       <a href="mindpalace.service.sql_query.mongodb.html#module-mindpalace.service.sql_query.mongodb"><code class="xref">mindpalace.service.sql_query.mongodb</code></a></td><td>
+       <em></em></td></tr>
+     <tr class="cg-1">
+       <td></td>
+       <td>&#160;&#160;&#160;
+       <a href="mindpalace.service.sql_query.mysql.html#module-mindpalace.service.sql_query.mysql"><code class="xref">mindpalace.service.sql_query.mysql</code></a></td><td>
+       <em></em></td></tr>
+     <tr class="cg-1">
+       <td></td>
+       <td>&#160;&#160;&#160;
+       <a href="mindpalace.service.sql_query.sqlite.html#module-mindpalace.service.sql_query.sqlite"><code class="xref">mindpalace.service.sql_query.sqlite</code></a></td><td>
+       <em></em></td></tr>
+     <tr class="cg-1">
+       <td></td>
+       <td>&#160;&#160;&#160;
+       <a href="mindpalace.service.text_processing.html#module-mindpalace.service.text_processing"><code class="xref">mindpalace.service.text_processing</code></a></td><td>
+       <em></em></td></tr>
+     <tr class="cg-1">
+       <td></td>
+       <td>&#160;&#160;&#160;
+       <a href="mindpalace.service.text_processing.summarization.html#module-mindpalace.service.text_processing.summarization"><code class="xref">mindpalace.service.text_processing.summarization</code></a></td><td>
+       <em></em></td></tr>
+     <tr class="cg-1">
+       <td></td>
+       <td>&#160;&#160;&#160;
+       <a href="mindpalace.service.web.html#module-mindpalace.service.web"><code class="xref">mindpalace.service.web</code></a></td><td>
+       <em></em></td></tr>
+     <tr class="cg-1">
+       <td></td>
+       <td>&#160;&#160;&#160;
+       <a href="mindpalace.service.web.arxiv.html#module-mindpalace.service.web.arxiv"><code class="xref">mindpalace.service.web.arxiv</code></a></td><td>
+       <em></em></td></tr>
+     <tr class="cg-1">
+       <td></td>
+       <td>&#160;&#160;&#160;
+       <a href="mindpalace.service.web.dblp.html#module-mindpalace.service.web.dblp"><code class="xref">mindpalace.service.web.dblp</code></a></td><td>
+       <em></em></td></tr>
+     <tr class="cg-1">
+       <td></td>
+       <td>&#160;&#160;&#160;
+       <a href="mindpalace.service.web.download.html#module-mindpalace.service.web.download"><code class="xref">mindpalace.service.web.download</code></a></td><td>
+       <em></em></td></tr>
+     <tr class="cg-1">
+       <td></td>
+       <td>&#160;&#160;&#160;
+       <a href="mindpalace.service.web.search.html#module-mindpalace.service.web.search"><code class="xref">mindpalace.service.web.search</code></a></td><td>
+       <em></em></td></tr>
+     <tr class="cg-1">
+       <td></td>
+       <td>&#160;&#160;&#160;
+       <a href="mindpalace.service.web.tripadvisor.html#module-mindpalace.service.web.tripadvisor"><code class="xref">mindpalace.service.web.tripadvisor</code></a></td><td>
+       <em></em></td></tr>
+     <tr class="cg-1">
+       <td></td>
+       <td>&#160;&#160;&#160;
+       <a href="mindpalace.service.web.web_digest.html#module-mindpalace.service.web.web_digest"><code class="xref">mindpalace.service.web.web_digest</code></a></td><td>
+       <em></em></td></tr>
+     <tr class="cg-1">
+       <td></td>
+       <td>&#160;&#160;&#160;
+       <a href="mindpalace.service.web.wikipedia.html#module-mindpalace.service.web.wikipedia"><code class="xref">mindpalace.service.web.wikipedia</code></a></td><td>
+       <em></em></td></tr>
+     <tr class="cg-1">
+       <td></td>
+       <td>&#160;&#160;&#160;
+       <a href="mindpalace.strategy.html#module-mindpalace.strategy"><code class="xref">mindpalace.strategy</code></a></td><td>
+       <em></em></td></tr>
+     <tr class="cg-1">
+       <td></td>
+       <td>&#160;&#160;&#160;
+       <a href="mindpalace.strategy.mixture_of_agent.html#module-mindpalace.strategy.mixture_of_agent"><code class="xref">mindpalace.strategy.mixture_of_agent</code></a></td><td>
+       <em></em></td></tr>
+     <tr class="cg-1">
+       <td></td>
+       <td>&#160;&#160;&#160;
+       <a href="mindpalace.studio.html#module-mindpalace.studio"><code class="xref">mindpalace.studio</code></a></td><td>
+       <em></em></td></tr>
+     <tr class="cg-1">
+       <td></td>
+       <td>&#160;&#160;&#160;
+       <a href="mindpalace.tokens.html#module-mindpalace.tokens"><code class="xref">mindpalace.tokens</code></a></td><td>
+       <em></em></td></tr>
+     <tr class="cg-1">
+       <td></td>
+       <td>&#160;&#160;&#160;
+       <a href="mindpalace.utils.html#module-mindpalace.utils"><code class="xref">mindpalace.utils</code></a></td><td>
+       <em></em></td></tr>
+     <tr class="cg-1">
+       <td></td>
+       <td>&#160;&#160;&#160;
+       <a href="mindpalace.utils.common.html#module-mindpalace.utils.common"><code class="xref">mindpalace.utils.common</code></a></td><td>
+       <em></em></td></tr>
+     <tr class="cg-1">
+       <td></td>
+       <td>&#160;&#160;&#160;
+       <a href="mindpalace.utils.token_utils.html#module-mindpalace.utils.token_utils"><code class="xref">mindpalace.utils.token_utils</code></a></td><td>
+       <em></em></td></tr>
+     <tr class="cg-1">
+       <td></td>
+       <td>&#160;&#160;&#160;
+       <a href="mindpalace.web.html#module-mindpalace.web"><code class="xref">mindpalace.web</code></a></td><td>
+       <em></em></td></tr>
+     <tr class="cg-1">
+       <td></td>
+       <td>&#160;&#160;&#160;
+       <a href="mindpalace.web.gradio.html#module-mindpalace.web.gradio"><code class="xref">mindpalace.web.gradio</code></a></td><td>
+       <em></em></td></tr>
+     <tr class="cg-1">
+       <td></td>
+       <td>&#160;&#160;&#160;
+       <a href="mindpalace.web.gradio.constants.html#module-mindpalace.web.gradio.constants"><code class="xref">mindpalace.web.gradio.constants</code></a></td><td>
+       <em></em></td></tr>
+     <tr class="cg-1">
+       <td></td>
+       <td>&#160;&#160;&#160;
+       <a href="mindpalace.web.gradio.utils.html#module-mindpalace.web.gradio.utils"><code class="xref">mindpalace.web.gradio.utils</code></a></td><td>
+       <em></em></td></tr>
+     <tr class="cg-1">
+       <td></td>
+       <td>&#160;&#160;&#160;
+       <a href="mindpalace.web.workstation.html#module-mindpalace.web.workstation"><code class="xref">mindpalace.web.workstation</code></a></td><td>
+       <em></em></td></tr>
+     <tr class="cg-1">
+       <td></td>
+       <td>&#160;&#160;&#160;
+       <a href="mindpalace.web.workstation.workflow.html#module-mindpalace.web.workstation.workflow"><code class="xref">mindpalace.web.workstation.workflow</code></a></td><td>
+       <em></em></td></tr>
+     <tr class="cg-1">
+       <td></td>
+       <td>&#160;&#160;&#160;
+       <a href="mindpalace.web.workstation.workflow_dag.html#module-mindpalace.web.workstation.workflow_dag"><code class="xref">mindpalace.web.workstation.workflow_dag</code></a></td><td>
+       <em></em></td></tr>
+     <tr class="cg-1">
+       <td></td>
+       <td>&#160;&#160;&#160;
+       <a href="mindpalace.web.workstation.workflow_node.html#module-mindpalace.web.workstation.workflow_node"><code class="xref">mindpalace.web.workstation.workflow_node</code></a></td><td>
+       <em></em></td></tr>
+     <tr class="cg-1">
+       <td></td>
+       <td>&#160;&#160;&#160;
+       <a href="mindpalace.web.workstation.workflow_utils.html#module-mindpalace.web.workstation.workflow_utils"><code class="xref">mindpalace.web.workstation.workflow_utils</code></a></td><td>
+       <em></em></td></tr>
+   </table>
+
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2024, Alibaba Tongyi Lab.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

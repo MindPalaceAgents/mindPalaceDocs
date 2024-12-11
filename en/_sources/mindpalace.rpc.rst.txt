@@ -1,0 +1,7 @@
+mindpalace.rpc
+==============
+
+.. automodule:: mindpalace.rpc
+   :members:
+   :undoc-members:
+   :show-inheritance:

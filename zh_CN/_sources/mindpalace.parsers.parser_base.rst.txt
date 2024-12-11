@@ -1,0 +1,6 @@
+mindpalace.parsers.parser_base
+==============================
+.. automodule:: mindpalace.parsers.parser_base
+   :members:
+   :undoc-members:
+   :show-inheritance:

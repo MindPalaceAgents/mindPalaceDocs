@@ -1,0 +1,6 @@
+mindpalace.service.retrieval.retrieval_from_list
+================================================
+.. automodule:: mindpalace.service.retrieval.retrieval_from_list
+   :members:
+   :undoc-members:
+   :show-inheritance:

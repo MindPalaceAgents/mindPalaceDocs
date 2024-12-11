@@ -1,0 +1,7 @@
+mindpalace
+==========
+
+.. automodule:: mindpalace
+   :members:
+   :undoc-members:
+   :show-inheritance:

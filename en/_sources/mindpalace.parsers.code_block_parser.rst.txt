@@ -1,0 +1,6 @@
+mindpalace.parsers.code_block_parser
+====================================
+.. automodule:: mindpalace.parsers.code_block_parser
+   :members:
+   :undoc-members:
+   :show-inheritance:

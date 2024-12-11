@@ -1,0 +1,7 @@
+mindpalace.pipelines
+====================
+
+.. automodule:: mindpalace.pipelines
+   :members:
+   :undoc-members:
+   :show-inheritance:

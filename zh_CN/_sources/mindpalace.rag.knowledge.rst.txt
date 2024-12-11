@@ -1,0 +1,6 @@
+mindpalace.rag.knowledge
+========================
+.. automodule:: mindpalace.rag.knowledge
+   :members:
+   :undoc-members:
+   :show-inheritance:

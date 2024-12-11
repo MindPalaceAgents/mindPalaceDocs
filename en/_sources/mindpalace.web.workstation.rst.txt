@@ -1,0 +1,7 @@
+mindpalace.web.workstation
+==========================
+
+.. automodule:: mindpalace.web.workstation
+   :members:
+   :undoc-members:
+   :show-inheritance:

@@ -1,0 +1,6 @@
+mindpalace.service.service_status
+=================================
+.. automodule:: mindpalace.service.service_status
+   :members:
+   :undoc-members:
+   :show-inheritance:

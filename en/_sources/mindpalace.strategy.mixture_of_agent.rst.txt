@@ -1,0 +1,6 @@
+mindpalace.strategy.mixture_of_agent
+====================================
+.. automodule:: mindpalace.strategy.mixture_of_agent
+   :members:
+   :undoc-members:
+   :show-inheritance:

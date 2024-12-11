@@ -1,0 +1,6 @@
+mindpalace.rag.llama_index_knowledge
+====================================
+.. automodule:: mindpalace.rag.llama_index_knowledge
+   :members:
+   :undoc-members:
+   :show-inheritance:

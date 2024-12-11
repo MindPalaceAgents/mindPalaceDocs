@@ -1,0 +1,6 @@
+mindpalace.rpc.rpc_async
+========================
+.. automodule:: mindpalace.rpc.rpc_async
+   :members:
+   :undoc-members:
+   :show-inheritance:

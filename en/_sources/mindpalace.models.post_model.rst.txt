@@ -1,0 +1,6 @@
+mindpalace.models.post_model
+============================
+.. automodule:: mindpalace.models.post_model
+   :members:
+   :undoc-members:
+   :show-inheritance:

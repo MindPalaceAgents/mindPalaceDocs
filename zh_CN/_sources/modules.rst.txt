@@ -1,0 +1,7 @@
+mindpalace
+==========
+
+.. toctree::
+   :maxdepth: 4
+
+   mindpalace

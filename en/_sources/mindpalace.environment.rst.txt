@@ -1,0 +1,7 @@
+mindpalace.environment
+======================
+
+.. automodule:: mindpalace.environment
+   :members:
+   :undoc-members:
+   :show-inheritance:

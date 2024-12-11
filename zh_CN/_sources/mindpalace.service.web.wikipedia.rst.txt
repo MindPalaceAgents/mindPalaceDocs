@@ -1,0 +1,6 @@
+mindpalace.service.web.wikipedia
+================================
+.. automodule:: mindpalace.service.web.wikipedia
+   :members:
+   :undoc-members:
+   :show-inheritance:

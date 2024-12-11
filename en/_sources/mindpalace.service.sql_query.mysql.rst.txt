@@ -1,0 +1,6 @@
+mindpalace.service.sql_query.mysql
+==================================
+.. automodule:: mindpalace.service.sql_query.mysql
+   :members:
+   :undoc-members:
+   :show-inheritance:

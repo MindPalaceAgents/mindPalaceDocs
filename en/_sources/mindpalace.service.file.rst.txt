@@ -1,0 +1,7 @@
+mindpalace.service.file
+=======================
+
+.. automodule:: mindpalace.service.file
+   :members:
+   :undoc-members:
+   :show-inheritance:

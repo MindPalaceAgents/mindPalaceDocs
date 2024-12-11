@@ -1,0 +1,6 @@
+mindpalace.logging
+==================
+.. automodule:: mindpalace.logging
+   :members:
+   :undoc-members:
+   :show-inheritance:

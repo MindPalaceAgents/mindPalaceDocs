@@ -1,0 +1,7 @@
+mindpalace.service.text_processing
+==================================
+
+.. automodule:: mindpalace.service.text_processing
+   :members:
+   :undoc-members:
+   :show-inheritance:

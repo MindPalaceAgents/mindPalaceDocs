@@ -1,0 +1,7 @@
+mindpalace.service.multi_modality
+=================================
+
+.. automodule:: mindpalace.service.multi_modality
+   :members:
+   :undoc-members:
+   :show-inheritance:

@@ -1,0 +1,6 @@
+mindpalace.constants
+====================
+.. automodule:: mindpalace.constants
+   :members:
+   :undoc-members:
+   :show-inheritance:

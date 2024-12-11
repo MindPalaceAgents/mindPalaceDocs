@@ -1,0 +1,6 @@
+mindpalace.memory.temporary_memory
+==================================
+.. automodule:: mindpalace.memory.temporary_memory
+   :members:
+   :undoc-members:
+   :show-inheritance:

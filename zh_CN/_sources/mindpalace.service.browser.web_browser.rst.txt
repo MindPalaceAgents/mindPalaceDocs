@@ -1,0 +1,6 @@
+mindpalace.service.browser.web_browser
+======================================
+.. automodule:: mindpalace.service.browser.web_browser
+   :members:
+   :undoc-members:
+   :show-inheritance:

@@ -1,0 +1,6 @@
+mindpalace.parsers.regex_tagged_content_parser
+==============================================
+.. automodule:: mindpalace.parsers.regex_tagged_content_parser
+   :members:
+   :undoc-members:
+   :show-inheritance:

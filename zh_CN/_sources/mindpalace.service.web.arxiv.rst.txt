@@ -1,0 +1,6 @@
+mindpalace.service.web.arxiv
+============================
+.. automodule:: mindpalace.service.web.arxiv
+   :members:
+   :undoc-members:
+   :show-inheritance:

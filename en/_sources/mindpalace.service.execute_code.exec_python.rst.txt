@@ -1,0 +1,6 @@
+mindpalace.service.execute_code.exec_python
+===========================================
+.. automodule:: mindpalace.service.execute_code.exec_python
+   :members:
+   :undoc-members:
+   :show-inheritance:

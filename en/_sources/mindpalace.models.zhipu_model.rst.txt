@@ -1,0 +1,6 @@
+mindpalace.models.zhipu_model
+=============================
+.. automodule:: mindpalace.models.zhipu_model
+   :members:
+   :undoc-members:
+   :show-inheritance:

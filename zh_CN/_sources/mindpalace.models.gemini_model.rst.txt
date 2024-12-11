@@ -1,0 +1,6 @@
+mindpalace.models.gemini_model
+==============================
+.. automodule:: mindpalace.models.gemini_model
+   :members:
+   :undoc-members:
+   :show-inheritance:

@@ -1,0 +1,6 @@
+mindpalace.serialize
+====================
+.. automodule:: mindpalace.serialize
+   :members:
+   :undoc-members:
+   :show-inheritance:

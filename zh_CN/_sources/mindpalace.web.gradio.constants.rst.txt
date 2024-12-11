@@ -1,0 +1,6 @@
+mindpalace.web.gradio.constants
+===============================
+.. automodule:: mindpalace.web.gradio.constants
+   :members:
+   :undoc-members:
+   :show-inheritance:

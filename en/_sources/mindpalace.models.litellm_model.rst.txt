@@ -1,0 +1,6 @@
+mindpalace.models.litellm_model
+===============================
+.. automodule:: mindpalace.models.litellm_model
+   :members:
+   :undoc-members:
+   :show-inheritance:

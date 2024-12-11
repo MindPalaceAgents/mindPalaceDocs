@@ -1,0 +1,6 @@
+mindpalace.parsers.json_object_parser
+=====================================
+.. automodule:: mindpalace.parsers.json_object_parser
+   :members:
+   :undoc-members:
+   :show-inheritance:

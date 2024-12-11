@@ -1,0 +1,6 @@
+mindpalace.models.yi_model
+==========================
+.. automodule:: mindpalace.models.yi_model
+   :members:
+   :undoc-members:
+   :show-inheritance:

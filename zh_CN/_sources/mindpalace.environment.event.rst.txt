@@ -1,0 +1,6 @@
+mindpalace.environment.event
+============================
+.. automodule:: mindpalace.environment.event
+   :members:
+   :undoc-members:
+   :show-inheritance:

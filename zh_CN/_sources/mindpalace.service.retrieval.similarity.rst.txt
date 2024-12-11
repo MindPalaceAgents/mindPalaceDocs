@@ -1,0 +1,6 @@
+mindpalace.service.retrieval.similarity
+=======================================
+.. automodule:: mindpalace.service.retrieval.similarity
+   :members:
+   :undoc-members:
+   :show-inheritance:

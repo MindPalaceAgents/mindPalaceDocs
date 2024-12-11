@@ -1,0 +1,6 @@
+mindpalace.server.servicer
+==========================
+.. automodule:: mindpalace.server.servicer
+   :members:
+   :undoc-members:
+   :show-inheritance:

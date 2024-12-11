@@ -1,0 +1,6 @@
+mindpalace.msghub
+=================
+.. automodule:: mindpalace.msghub
+   :members:
+   :undoc-members:
+   :show-inheritance:

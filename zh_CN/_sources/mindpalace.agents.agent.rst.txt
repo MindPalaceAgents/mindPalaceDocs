@@ -1,0 +1,6 @@
+mindpalace.agents.agent
+=======================
+.. automodule:: mindpalace.agents.agent
+   :members:
+   :undoc-members:
+   :show-inheritance:

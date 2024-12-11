@@ -1,0 +1,6 @@
+mindpalace.service.execute_code.exec_notebook
+=============================================
+.. automodule:: mindpalace.service.execute_code.exec_notebook
+   :members:
+   :undoc-members:
+   :show-inheritance:

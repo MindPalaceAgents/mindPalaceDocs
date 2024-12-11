@@ -1,0 +1,6 @@
+mindpalace.web.gradio.studio
+============================
+.. automodule:: mindpalace.web.gradio.studio
+   :members:
+   :undoc-members:
+   :show-inheritance:
